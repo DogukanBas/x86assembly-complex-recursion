@@ -15,3 +15,5 @@ Unlike in high level languages(c, c++,python) in assembly languages, its the pro
 nested loops are harder to implement. In this problem I have implemented a nested  recursion function. As given above. 
 
 Also in the XXX_B file, I have implemented the same function using dynamic programming aproach. Which works faster as it doesn't re-calculate already calculated values
+
+After the values are calculated, I printed them to the console using INT 21H Interruption, which only prints characters so I loop over the number and print in ASCII, there is no built-in print-like function in x86 assembly. It is only possible using such IO interruptions
